@@ -10,6 +10,9 @@ This repository contains the Android app, training code, exported models, demons
 - `app/`  
   Kotlin Android app with a foreground service (`SensorManager`), feature computation, on-device inference, and live UI.
 
+- `gradle/wrapper/`  
+  Gradle wrapper scripts and configuration files for reproducible Android builds.
+
 - `MET_Tracker_Trainer/`  
   Training & evaluation:
   - `main.py` (entry point)
@@ -27,19 +30,16 @@ This repository contains the Android app, training code, exported models, demons
 
 ## ⚙️ Environment
 
-- Python ≥ 3.9
-- PyTorch, scikit-learn, NumPy, pandas
-- (Optional) CUDA for faster CNN training
+- Python ≥ 3.9  
+- PyTorch, scikit-learn, NumPy, pandas  
+- (Optional) CUDA for faster CNN training  
 - Android Studio (AGP 8.5.2, Gradle 8.7), `compileSdk=34`, `minSdk=24`
 
-Install Python deps (example):
+Install Python deps (from inside the trainer folder):
 ```bash
+cd MET_Tracker_Trainer
 pip install -r requirements.txt
 ```
-
-> If no `requirements.txt` is provided, typical packages include: `torch torchvision torchaudio scikit-learn numpy pandas matplotlib onnx onnxruntime skl2onnx`.
-
----
 
 ## 🚀 Training
 
