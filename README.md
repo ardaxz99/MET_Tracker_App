@@ -41,6 +41,14 @@ cd MET_Tracker_Trainer
 pip install -r requirements.txt
 ```
 
+## 🗂️ Dataset
+
+We use the **WISDM Activity Prediction** dataset (smartphone accelerometer at ~20 Hz, 6 activities).  
+- Official page (Fordham WISDM Lab): https://www.cis.fordham.edu/wisdm/dataset.php  
+- Citation: Kwapisz et al., *Activity Recognition using Cell Phone Accelerometers*, SensorKDD 2010.
+> Note: This is the classic 6-activity WISDM dataset used in many HAR papers. There is also a newer **WISDM Smartphone & Smartwatch** dataset (18 activities, phone+watch, 20 Hz) on the UCI ML Repository; our work here targets the classic 6-class phone dataset to match the MET mapping.
+
+
 ## 🚀 Training
 
 **Handcrafted features + classic ML**
