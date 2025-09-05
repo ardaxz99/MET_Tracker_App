@@ -24,7 +24,7 @@ This repository contains the Android app, training code, exported models, demons
   - Android **APK**
   - **Video** demonstration of the app
   - ONNX-exported CNN model **`cnn.onnx`**
-  - **PDF** report (this paper)
+  - **PDF** report
 
 ---
 
