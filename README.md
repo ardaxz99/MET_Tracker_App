@@ -86,7 +86,7 @@ All artifacts are bundled for convenience:
 
 - **APK** (ready to install)
 - **Demo video** of the app running
-- **`cnn.onnx`** exported model
+- **`cnn.onnx`** exported model. A copy is also in app/src/main/assets/. The app must have this file in that directory to build successfully.
 - **Report (PDF)** — the paper corresponding to this repo
 
 All four files live in:
