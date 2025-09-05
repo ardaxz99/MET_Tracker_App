@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activity State Tracker</string>
+    <string name="notification_tracking">Tracking in background</string>
+    <string name="notification_channel_tracking">Activity Tracking</string>
+</resources>
+
